@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const { fontFamily } = require("tailwindcss/defaultTheme");
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,9 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sspro: ["var(--font-enb)", ...fontFamily.sans],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        green: "#00c566",
+        themeColor: "#00c566",
       },
     },
   },

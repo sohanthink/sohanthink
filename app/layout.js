@@ -44,7 +44,6 @@ export const metadata = {
     "iOS development",
   ],
   author: "Muhammad Sohan Mollah",
-  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({ children }) {
@@ -55,10 +54,10 @@ export default function RootLayout({ children }) {
         {/* <link rel="icon" href="/favicon.svg" type="image/svg+xml" /> */}
       </head>
       <body
-        className={`${poppins.className} ${myLocalFont.variable} antialiased`}
+        className={`${poppins.className} ${myLocalFont.variable} antialiased common_bg`}
       >
         <Navbar />
-        <div className="grid grid-cols-4 gap-4 container">
+        <div className="grid grid-cols-4 gap-4 container ">
           <div className="">
             <ProfileBar />
           </div>

@@ -2,6 +2,7 @@ import Navbar from "@/components/common/Navbar";
 import "./globals.css";
 import { Poppins } from "next/font/google"; // Import both fonts
 import localFont from "next/font/local";
+import ProfileBar from "@/components/common/ProfileBar";
 // Configure the local font
 const myLocalFont = localFont({
   src: [
@@ -57,7 +58,12 @@ export default function RootLayout({ children }) {
         className={`${poppins.className} ${myLocalFont.variable} antialiased`}
       >
         <Navbar />
-        {children}
+        <div className="grid grid-cols-4 gap-4 container">
+          <div className="">
+            <ProfileBar />
+          </div>
+          <div className="col-span-3">{children}</div>
+        </div>
       </body>
     </html>
   );

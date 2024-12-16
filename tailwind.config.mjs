@@ -15,6 +15,9 @@ export default {
         green: "#00c566",
         themeColor: "#00c566",
       },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [],

@@ -2,11 +2,11 @@
 import { animate, motion } from "framer-motion";
 import React, { useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { GoCopilot } from "react-icons/go";
 import Link from "next/link";
 import { CiFacebook } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
+
 
 export function CardDemo() {
     return (
@@ -96,6 +96,7 @@ const Skeleton = () => {
         </div>)
     );
 };
+
 const Sparkles = () => {
     const randomMove = () => Math.random() * 2 - 1;
     const randomOpacity = () => Math.random();
@@ -145,7 +146,6 @@ export const Card = ({
         </div>)
     );
 };
-
 
 export const CardSkeletonContainer = ({
     className,

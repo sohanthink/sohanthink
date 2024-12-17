@@ -12,7 +12,7 @@ const Navbar = () => {
     const pathname = usePathname();
 
     return (
-        <div className='flex justify-between items-center container py-2'>
+        <div className='flex justify-between items-center container px-5 md:px-0 py-2'>
             <div>
                 <ul className='flex gap-8'>
                     <li className={pathname === "/" ? "text-green" : "hover:text-green"}>

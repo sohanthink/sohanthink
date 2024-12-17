@@ -45,6 +45,17 @@
   background-color: #202020;
   background-image: url(../public/images/dark-bg.png);
 }
+.customStroke {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #00c566;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.customStroke:hover {
+  color: #00c566;
+  -webkit-text-stroke-width: none;
+}
 
 body {
   color: var(--foreground);

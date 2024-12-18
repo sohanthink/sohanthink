@@ -12,7 +12,7 @@ const Navbar = () => {
     const pathname = usePathname();
 
     return (
-        <div className='flex justify-between items-center container px-5 md:px-0 py-2'>
+        <div className='flex justify-between items-center container px-5 md:px-0 py-4 md:py-2'>
             <div>
                 <ul className='flex gap-8'>
                     <li className={pathname === "/" ? "text-green" : "hover:text-green"}>
@@ -27,8 +27,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='hover:cursor-pointer"'>
-                <Link href="/">
-                    <Image src={whitelogo} alt='logo' height={80} />
+                <Link href="/" className='h-10 md:h-20 block'>
+                    <Image src={whitelogo} alt='logo' className='w-full h-full' />
                 </Link>
             </div>
         </div>

@@ -10,7 +10,6 @@ import { CardDemo } from '../ui/Card';
 const ProfileBar = () => {
     return (
         <div className="flex-col items-center space-y-4 md:space-y-6 shadow-box py-5 md:py-14">
-
             <div className='flex justify-center items-center'>
                 <Image priority className='border border-1 border-gray-500/30 rounded-[50%]' src={profile} alt="profile" width={200} height={200} />
             </div>
@@ -32,7 +31,6 @@ const ProfileBar = () => {
             <div>
                 <CardDemo />
             </div>
-
         </div>
     )
 }

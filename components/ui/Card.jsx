@@ -78,13 +78,13 @@ const Skeleton = () => {
             className="overflow-hidden h-full relative flex items-center justify-center">
             <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
                 <Container className="h-10 w-10 circle-2">
-                    <Link href="https://www.facebook.com/sohanthink" target='_blank'><CiFacebook className='w-9 h-9' /></Link>
+                    <Link href="https://www.facebook.com/sohanthink" aria-label="Facebook profile" target='_blank'><CiFacebook className='w-9 h-9' /></Link>
                 </Container>
                 <Container className="h-10 w-10 circle-3">
-                    <Link href="https://www.github.com/sohanthink" target='_blank'><FaGithub className='w-9 h-9' /></Link>
+                    <Link href="https://www.github.com/sohanthink" target='_blank' aria-label="Github profile"><FaGithub className='w-9 h-9' /></Link>
                 </Container>
                 <Container className="h-10 w-10 circle-4">
-                    <Link href="https://www.linkedin.com/in/sohanthink/" target='_blank'><TiSocialLinkedinCircular className='w-9 h-9' /></Link>
+                    <Link href="https://www.linkedin.com/in/sohanthink/" target='_blank' aria-label="LinkedIn profile"><TiSocialLinkedinCircular className='w-9 h-9' /></Link>
                 </Container>
             </div>
             <div

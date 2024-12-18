@@ -18,12 +18,12 @@ export default function Home() {
     <div className="container flex justify-center items-center min-h-screen">
       <div className="grid grid-cols-6 gap-4 items-start">
         {/* Main Header Section */}
-        <div className="col-span-6 shadow-box p-5 md:p-10">
+        <div className="col-span-6 shadow-box p-3 md:p-10">
           <h4 className="text-grayColor">
             <span className="text-2xl text-white">Hi!</span> There I'm
           </h4>
           <Image src={arrow} alt="arrow" width={100} />
-          <div className="font-sspro text-4xl md:text-6xl flex-wrap flex gap-2">
+          <div className="font-sspro text-3xl md:text-6xl flex-wrap flex gap-2 text-nowrap">
             Full Stack Developer
             <span className="customStroke flex gap-3">
               <Link href="/contact">Hire Me!</Link>{" "}
@@ -36,15 +36,17 @@ export default function Home() {
         <div className="col-span-6 md:col-span-4 grid gap-4 grid-cols-4 md:grid-cols-2">
           {/* about card */}
           <Link href="/about" className="col-span-2 md:col-span-1">
-            <div className="shadow-box flex flex-col justify-center items-center px-2 py-4 md:py-9 h-full">
+            <div className="shadow-box flex flex-col justify-center items-center px-2 py-1 md:py-9 h-full">
               <Image src={about} alt="about_img" />
               <h6 className="text-grayColor text-lg">Specialization</h6>
-              <h4 className="font-sspro font-bold text-4xl">About Me</h4>
+              <h4 className="font-sspro font-bold text-2xl md:text-4xl">
+                About Me
+              </h4>
             </div>
           </Link>
           {/* service card */}
           <Link href="/services" className="col-span-2 md:col-span-1">
-            <div className=" w-full shadow-box flex flex-col justify-center items-center px-2 py-4 md:py-9 h-full">
+            <div className=" w-full shadow-box flex flex-col justify-center items-center px-2 py-1 md:py-9 h-full">
               <Image src={service} alt="service_img" fill sizes="100%" />
               <marquee className="text-[140px] text-green font-extrabold uppercase">
                 services
@@ -77,14 +79,16 @@ export default function Home() {
           </div>
 
           <div className="col-span-2 md:col-span-4">
-            <BgLines />
+            <BgLines text="MERN Stack Developer." />
           </div>
 
           <Link href="/contact" className="col-span-2 md:col-span-4">
             <div className="p-6 flex justify-between items-center shadow-box">
               <div>
                 <PiArrowCircleDownThin className="text-3xl text-grayColor" />
-                <h6 className="text-grayColor font-sspro pt-4">Get In Touch</h6>
+                <h6 className="text-grayColor font-sspro pt-4 md:pt-4 text-sm md:text-base">
+                  Get In Touch
+                </h6>
               </div>
               <div>
                 <IoIosMailOpen className="text-green text-4xl" />

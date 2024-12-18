@@ -3,7 +3,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google"; // Import both fonts
 import localFont from "next/font/local";
 import ProfileBar from "@/components/common/ProfileBar";
-import Footer from "@/components/common/footer";
+import Footer from "@/components/common/Footer";
 // Configure the local font
 const myLocalFont = localFont({
   src: [

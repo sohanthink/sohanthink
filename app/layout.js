@@ -3,6 +3,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google"; // Import both fonts
 import localFont from "next/font/local";
 import ProfileBar from "@/components/common/ProfileBar";
+import Footer from "@/components/common/footer";
 // Configure the local font
 const myLocalFont = localFont({
   src: [
@@ -63,6 +64,7 @@ export default function RootLayout({ children }) {
           </div>
           <div className="col-span-4 md:col-span-3">{children}</div>
         </div>
+        <Footer />
       </body>
     </html>
   );

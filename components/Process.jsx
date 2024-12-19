@@ -14,7 +14,7 @@ const BackendTools = [
 
 const ProcessCard = ({ step, title, description }) => {
     return (
-        <div className='border border-grayColor/30 p-3 flex flex-col items-start justify-center gap-2'>
+        <div className='border border-grayColor/30 p-3 flex flex-col items-start justify-center gap-2 col-span-3 md:col-span-1'>
             <h4 className='border border-grayColor/30 rounded-full h-10 w-10 flex justify-center items-center'>{step}</h4>
             <h3 className='text-xl font-sspro'>{title}</h3>
             <p className='text-grayColor'>{description}</p>

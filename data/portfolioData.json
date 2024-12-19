@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "A Social media application with React.",
+    "tech": ["ReactJs", "NextJS"],
+    "image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
+    "client": "bainchud",
+    "category": "web",
+    "figma": "https://www",
+    "website": "https://www",
+    "systemDesign": "http://www",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisg elit. Ut venenatis sagittis tortor, in convallis justo sagittis et./n Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus molestie danger misshion to uorolos pentis mention lobortis."
+  },
+  {
+    "id": 2,
+    "title": "A Social media application with React2",
+    "tech": ["ReactJs", "NextJS"],
+    "image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
+    "client": "bainchud",
+    "category": "web",
+    "figma": "https://www",
+    "website": "https://www",
+    "systemDesign": "http://www",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisg elit. Ut venenatis sagittis tortor, in convallis justo sagittis et./n Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus molestie danger misshion to uorolos pentis mention lobortis."
+  }
+]

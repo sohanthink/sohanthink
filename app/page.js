@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { SlBadge } from "react-icons/sl";
-import { PiArrowCircleDownThin } from "react-icons/pi";
-import { IoIosMailOpen } from "react-icons/io";
 
 import arrow from "@/public/images/arrow.png";
 import about from "@/public/images/about.png";
@@ -12,6 +10,7 @@ import potfolioBanner from "@/public/images/home-banner2.jpg";
 import Link from "next/link";
 import Tech from "@/components/home/Tech";
 import BgLines from "@/components/ui/BgLines";
+import GetInTouch from "@/components/common/GetInTouch";
 
 export default function Home() {
   return (
@@ -82,19 +81,7 @@ export default function Home() {
             <BgLines text="MERN Stack Developer." />
           </div>
 
-          <Link href="/contact" className="col-span-2 md:col-span-4">
-            <div className="p-6 flex justify-between items-center shadow-box">
-              <div>
-                <PiArrowCircleDownThin className="text-3xl text-grayColor" />
-                <h6 className="text-grayColor font-sspro pt-4 md:pt-4 text-sm md:text-base">
-                  Get In Touch
-                </h6>
-              </div>
-              <div>
-                <IoIosMailOpen className="text-green text-4xl" />
-              </div>
-            </div>
-          </Link>
+          <GetInTouch />
         </div>
       </div>
     </div>

@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import picture from "@/public/images/profile33.jpeg"
+import GetInTouch from '@/components/common/GetInTouch';
+import Process from '@/components/Process';
 
 const technologies = [
     "NODEJS", "EXPRESS", "MYSQL", "MONGODB", "REACT", "NEXTJS", "REDUX",
-    "TAILWIND CSS", "SHADCN", "ACERTINITYUI", "MUI", "BOOTSTRAP",
+    "TAILWIND CSS", "SHADCN", "MUI", "ACERTINITYUI", "BOOTSTRAP",
     "REACT NATIVE", "ANDROID", "IOS", "firebase", "vercel"
 ];
 
@@ -46,6 +48,10 @@ const About = () => {
                     }
                 </div>
             </div>
+
+            <div className='col-span-4 shadow-box'><Process /></div>
+            {/* <div className='col-span-2 md:col-span-1'><GetInTouch /></div> */}
+            {/* <div className='col-span-2 md:col-span-3'>nice</div> */}
         </div>
     )
 }

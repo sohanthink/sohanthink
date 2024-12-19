@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google"; // Import both fonts
 import localFont from "next/font/local";
 import ProfileBar from "@/components/common/ProfileBar";
 import Footer from "@/components/common/Footer";
+
 // Configure the local font
 const myLocalFont = localFont({
   src: [
@@ -58,11 +59,13 @@ export default function RootLayout({ children }) {
         className={`${poppins.className} ${myLocalFont.variable} antialiased common_bg`}
       >
         <Navbar />
-        <div className="grid grid-cols-4 gap-4 container p-5 md:p-0">
-          <div className="col-span-4 md:col-span-1">
+        <div className="grid grid-cols-4 gap-4 container p-5 md:p-0 md:h-screen md:overflow-hidden">
+          <div className="col-span-4 md:col-span-1 h-full">
             <ProfileBar />
           </div>
-          <div className="col-span-4 md:col-span-3">{children}</div>
+          <div className="col-span-4 md:col-span-3 md:h-full md:overflow-y-auto no-scrollbar">
+            {children}
+          </div>
         </div>
         <Footer />
       </body>

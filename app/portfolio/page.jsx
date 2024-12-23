@@ -12,6 +12,7 @@ import path from 'path';
 const Portfolio = () => {
 
     let portfolios = [];
+
     try {
         const filePath = path.join(process.cwd(), 'data', 'portfolioData.json');
         const jsonData = fs.readFileSync(filePath, 'utf-8');

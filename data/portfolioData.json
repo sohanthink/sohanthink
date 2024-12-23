@@ -2,15 +2,44 @@
   {
     "id": 1,
     "slug": "social-media-app",
-    "title": "A Social media application with React.",
+    "title": "A Social media application with Realtime chatting features in reactJS.",
     "tech": ["ReactJs", "NextJS"],
     "image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
-    "client": "bainchud",
+    "client": "Jacob Smith (MG)",
     "category": "web",
-    "figma": "https://www",
-    "website": "https://www",
-    "systemDesign": "http://www",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisg elit. Ut venenatis sagittis tortor, in convallis justo sagittis et./n Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus molestie danger misshion to uorolos pentis mention lobortis."
+    "github": "https://www",
+    "website": "https://www.sohanthink.com",
+    "details": {
+      "description": [
+        "<strong>Lorem</strong> ipsum dolor sit amet, <b>consectetur</b> adipisg elit. Ut venenatis sagittis tortor, in convallis justo sagittis et.",
+        "Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus molestie danger misshion to uorolos pentis mention lobortis."
+      ],
+      "keyFeatures": {
+        "features": [
+          "Realtime chatting",
+          "User authentication",
+          "Responsive design"
+        ],
+        "image": "https://sohanthink.com/portfolioimages/portfolio-1.png"
+      },
+      "technologyStack": [
+        "ReactJs",
+        "NextJS",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+        "Redux"
+      ],
+      "challenges": [
+        "Implementing realtime features",
+        "Ensuring scalability",
+        "Maintaining performance"
+      ],
+      "visuals": [
+        "https://sohanthink.com/portfolioimages/portfolio-1.png",
+        "https://sohanthink.com/portfolioimages/portfolio-2.png"
+      ]
+    }
   },
   {
     "id": 2,

@@ -2,6 +2,8 @@ import React from 'react'
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 const PortfolioDetails = async ({ params }) => {
     const slug = (await params).slug
@@ -19,6 +21,7 @@ const PortfolioDetails = async ({ params }) => {
         console.error("Error loading portfolio data:", error);
     }
 
+
     if (!portfolio) {
         return (
             <div className="text-center mt-10">
@@ -27,10 +30,12 @@ const PortfolioDetails = async ({ params }) => {
             </div>
         );
     }
+
+
     return (
-        <div className="grid grid-cols-10 gap-4 shadow-box p-4">
+        <div className="grid grid-cols-10 gap-4 shadow-box p-4 items-start">
             {/* /* Image Section */}
-            <div className="col-span-10 p-4 h-[300px]">
+            <div className="col-span-10 h-[300px]">
                 <div className="relative h-full w-full">
                     <Image
                         src="https://sohanthink.com/portfolioimages/portfolio-1.png"
@@ -45,16 +50,80 @@ const PortfolioDetails = async ({ params }) => {
 
             {/* Main Content Section */}
             <div className="col-span-10 md:col-span-7 shadow-box h-full p-4">
-                <p>nice</p>
+                <div>
+                    <h2 className='text-2xl font-semibold font-sspro pb-3'>{portfolio.title}
+                    </h2>
+                    <div className='flex flex-wrap gap-2 '>
+                        {portfolio.tech.map((tag, index) => (
+                            <span key={index} className='bg-gray-900 px-2 py-1 md:px-3 md:py-2 rounded-full text-sm md:text-base'>{tag}</span>
+                        ))}
+                    </div>
+                </div>
+                {/* description div */}
+                <div className='py-2'>
+                    {
+                        portfolio?.details?.description?.map((desc, index) => {
+                            return (
+                                <p className='text-grayColor py-2'
+                                    key={index}
+                                    dangerouslySetInnerHTML={{
+                                        __html: (desc), // Use sanitize for security
+                                    }}
+                                />
+                            )
+                        })
+                    }
+                </div>
+                <div>
+                    <h2 className='text-2xl font-semibold font-sspro'>Key Features :</h2>
+                    <ul className='list-disc list-outside p-4 space-y-2 text-grayColor'>
+                        {
+                            portfolio?.details?.keyFeatures?.features?.map((feature, index) => {
+                                return (
+                                    <li key={index} className=''>{feature}</li>
+                                )
+                            })
+                        }
+                    </ul>
+                    {
+                        portfolio?.details?.keyFeatures?.image && (
+                            <div className='h-[400px] w-full relative mt-4'>
+                                <Image
+                                    src={portfolio.details.keyFeatures.image}
+                                    alt='feature_image'
+                                    fill
+                                    className='rounded-lg object-cover'
+                                />
+                            </div>
+                        )
+                    }
+                </div>
             </div>
 
             {/* Sidebar Section */}
-            <div className="col-span-10 md:col-span-3 shadow-box p-4">
-                <p>very nice</p>
-                <p>very nice</p>
-                <p>very nice</p>
-                <p>very nice</p>
-                <p>very nice</p>
+            <div className="col-span-10 md:col-span-3 auto-rows-auto shadow-box p-4 divide-solid divide-grayColor/30  divide-y space-y-2">
+                {
+                    portfolio.client &&
+                    (
+                        <div>
+                            <SidebarItems title='Clients' content={portfolio.client} />
+                        </div>
+                    )
+                }
+                {
+                    portfolio.github && (
+                        <div>
+                            <Link className='hover:text-green transition-all duration-300 ease-linear' href={portfolio.github} target='blank'><SidebarItems title='Github Preview' content={portfolio.github} /></Link>
+                        </div>
+                    )
+                }
+                {
+                    portfolio.website && (
+                        <div>
+                            <Link className='hover:text-green transition-all duration-300 ease-linear' href={portfolio.website} target='blank'><SidebarItems title='Live Preview' content={portfolio.website} /></Link>
+                        </div>
+                    )
+                }
             </div>
         </div>
 
@@ -62,3 +131,13 @@ const PortfolioDetails = async ({ params }) => {
 }
 
 export default PortfolioDetails;
+
+
+export const SidebarItems = ({ title, content }) => {
+    return (
+        <div className='py-2'>
+            <h4 className=' text-sm md:text-base text-grayColor'>{title}</h4>
+            <p className='font-sspro'>{content}</p>
+        </div>
+    )
+}

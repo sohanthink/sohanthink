@@ -33,7 +33,7 @@ const PortfolioDetails = async ({ params }) => {
 
 
     return (
-        <div className="grid grid-cols-10 gap-4 shadow-box p-4 items-start">
+        <div className="grid grid-cols-10 gap-4 md:shadow-box p-0 md:p-4 items-start">
             {/* /* Image Section */}
             <div className="col-span-10 h-[200px] md:h-[300px]">
                 <div className="relative h-full w-full">
@@ -187,8 +187,6 @@ const PortfolioDetails = async ({ params }) => {
                         </div>
                     )
                 }
-
-
 
             </div>
 

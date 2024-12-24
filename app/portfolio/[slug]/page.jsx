@@ -35,7 +35,7 @@ const PortfolioDetails = async ({ params }) => {
     return (
         <div className="grid grid-cols-10 gap-4 shadow-box p-4 items-start">
             {/* /* Image Section */}
-            <div className="col-span-10 h-[300px]">
+            <div className="col-span-10 h-[200px] md:h-[300px]">
                 <div className="relative h-full w-full">
                     <Image
                         src="https://sohanthink.com/portfolioimages/portfolio-1.png"
@@ -74,31 +74,124 @@ const PortfolioDetails = async ({ params }) => {
                         })
                     }
                 </div>
-                <div>
-                    <h2 className='text-2xl font-semibold font-sspro'>Key Features :</h2>
-                    <ul className='list-disc list-outside p-4 space-y-2 text-grayColor'>
-                        {
-                            portfolio?.details?.keyFeatures?.features?.map((feature, index) => {
-                                return (
-                                    <li key={index} className=''>{feature}</li>
+
+                {/* key fetures */}
+                {
+                    portfolio?.details?.keyFeatures?.features?.length > 0 && (
+                        <div className='py-2'>
+                            <h2 className='text-2xl font-semibold font-sspro'>Key Features :</h2>
+                            <ul className='list-disc list-outside p-4 space-y-2 text-grayColor'>
+                                {
+                                    portfolio?.details?.keyFeatures?.features?.map((feature, index) => {
+                                        return (
+                                            <li key={index} className='' dangerouslySetInnerHTML={{ __html: feature }}></li>
+                                        )
+                                    })
+                                }
+                            </ul>
+                            {
+                                portfolio?.details?.keyFeatures?.image && (
+                                    <div className='h-48 md:h-[400px] w-full relative mt-4'>
+                                        <Image
+                                            src={portfolio.details.keyFeatures.image}
+                                            alt='feature_image'
+                                            fill
+                                            className='rounded-lg object-cover'
+                                        />
+                                    </div>
                                 )
-                            })
-                        }
-                    </ul>
-                    {
-                        portfolio?.details?.keyFeatures?.image && (
-                            <div className='h-[400px] w-full relative mt-4'>
-                                <Image
-                                    src={portfolio.details.keyFeatures.image}
-                                    alt='feature_image'
-                                    fill
-                                    className='rounded-lg object-cover'
-                                />
+                            }
+                        </div>
+                    )
+                }
+
+                {/* technology stack */}
+                {
+                    portfolio?.details?.technologyStack?.length > 0 && (
+                        <div className='py-2'>
+                            <h2 className='text-2xl font-semibold font-sspro'>Technology I have used :</h2>
+                            <ul className='list-disc list-outside p-4 space-y-2 text-grayColor'>
+                                {
+                                    portfolio?.details?.technologyStack?.map((technology, index) => {
+                                        return (
+                                            <li key={index} className='' dangerouslySetInnerHTML={{ __html: technology }}></li>
+                                        )
+                                    })
+                                }
+                            </ul>
+                        </div>
+                    )
+                }
+
+
+                {/* Challenges and Solutions Section */}
+                {
+                    portfolio?.details?.challengesAndSolutions?.length > 0 && (
+                        <div className='py-2'>
+                            <h2 className='text-2xl font-semibold font-sspro pb-2'>Challenges and Solutions :</h2>
+                            <div className='space-y-4'>
+                                {
+                                    portfolio.details.challengesAndSolutions.map((item, index) => (
+                                        <div key={index} className='p-4 border border-grayColor/30 rounded-lg'>
+                                            <h3 className='font-sspro'>Challenge:</h3>
+                                            <p className='text-grayColor'>{item.challenge}</p>
+                                            <h3 className='font-sspro mt-2'>Solution:</h3>
+                                            <p className='text-grayColor'>{item.solution}</p>
+                                        </div>
+                                    ))
+                                }
                             </div>
-                        )
-                    }
-                </div>
+                        </div>
+                    )
+                }
+
+
+                {/* Visuals Section */}
+                {
+                    portfolio?.details?.visuals?.length > 0 && (
+                        <div className='py-2'>
+                            <h2 className='text-2xl font-semibold font-sspro pb-2'>Visuals :</h2>
+                            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                                {
+                                    portfolio.details.visuals.map((visual, index) => (
+                                        <div key={index} className='relative h-48 md:h-64 w-full'>
+                                            <Image
+                                                src={visual}
+                                                alt={`visual-${index}`}
+                                                fill
+                                                className='rounded-lg object-cover'
+                                            />
+                                        </div>
+                                    ))
+                                }
+                            </div>
+                        </div>
+                    )
+                }
+
+                {/* Development Insights Section */}
+                {
+                    portfolio?.details?.developmentInsights && (
+                        <div className='py-2'>
+                            <h2 className='text-2xl font-sspro pb-2'>Development Insights :</h2>
+                            <div className='space-y-2'>
+                                <div className=''>
+                                    <h3 className='font-sspro'>What I Learned:</h3>
+                                    <p className='text-grayColor'>{portfolio.details.developmentInsights.whatILearned}</p>
+                                </div>
+                                <div className=''>
+                                    <h3 className='font-sspro'>Timeframe:</h3>
+                                    <p className='text-grayColor'>{portfolio.details.developmentInsights.timeframe}</p>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                }
+
+
+
             </div>
+
 
             {/* Sidebar Section */}
             <div className="col-span-10 md:col-span-3 auto-rows-auto shadow-box p-4 divide-solid divide-grayColor/30  divide-y space-y-2">
@@ -136,8 +229,8 @@ export default PortfolioDetails;
 export const SidebarItems = ({ title, content }) => {
     return (
         <div className='py-2'>
-            <h4 className=' text-sm md:text-base text-grayColor'>{title}</h4>
-            <p className='font-sspro'>{content}</p>
+            <h4 className='text-sm md:text-base text-grayColor'>{title}</h4>
+            <p className='font-sspro break-words'>{content}</p>
         </div>
     )
 }

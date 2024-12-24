@@ -5,10 +5,10 @@
     "title": "A Social media application with Realtime chatting features in reactJS.",
     "tech": ["ReactJs", "NextJS"],
     "image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
-    "client": "Jacob Smith (MG)",
+    "client": "For self improvements",
     "category": "web",
-    "github": "https://www",
-    "website": "https://www.sohanthink.com",
+    "github": "https://github.com/sohanthink/mychat",
+    "website": "https://sohanschat.vercel.app/",
     "details": {
       "description": [
         "<strong>Lorem</strong> ipsum dolor sit amet, <b>consectetur</b> adipisg elit. Ut venenatis sagittis tortor, in convallis justo sagittis et.",
@@ -16,29 +16,38 @@
       ],
       "keyFeatures": {
         "features": [
-          "Realtime chatting",
-          "User authentication",
-          "Responsive design"
+          "<strong>User Authentication:</strong> Secure sign-up and login with form validation.",
+          "<strong>Post Creation:</strong> Users can create, edit, and delete text-based or image-based posts.",
+          "<strong>Feed & Interaction:</strong> A dynamic feed where users can like, comment, and view posts.",
+          "<strong>Responsive Design:</strong> Built with Tailwind CSS to ensure the app looks great on all devices.",
+          "<strong>State Management:</strong> Redux is used for efficient and predictable state management."
         ],
         "image": "https://sohanthink.com/portfolioimages/portfolio-1.png"
       },
       "technologyStack": [
-        "ReactJs",
-        "NextJS",
-        "NodeJS",
-        "ExpressJS",
-        "MongoDB",
-        "Redux"
+        "<strong>Frontend:</strong> React, Tailwind CSS, Redux",
+        "<strong>Backend (Optional):</strong> Node.js, Express.js (if applicable)",
+        "<strong>Database:</strong> MongoDB / Firebase (if you’ve used a database)",
+        "<strong>Tools & Libraries:</strong> Axios, React Router, Vite (or Create React App)"
       ],
-      "challenges": [
-        "Implementing realtime features",
-        "Ensuring scalability",
-        "Maintaining performance"
+      "challengesAndSolutions": [
+        {
+          "challenge": "Building a real-time feed for seamless user interactions.",
+          "solution": "Leveraged Redux for managing application state efficiently."
+        },
+        {
+          "challenge": "Ensuring the app is responsive on all devices.",
+          "solution": "Utilized Tailwind CSS’s responsive utility classes for adaptive layouts."
+        }
       ],
       "visuals": [
         "https://sohanthink.com/portfolioimages/portfolio-1.png",
-        "https://sohanthink.com/portfolioimages/portfolio-2.png"
-      ]
+        "https://sohanthink.com/portfolioimages/portfolio-1.png"
+      ],
+      "developmentInsights": {
+        "whatILearned": "This project deepened my understanding of state management with Redux and advanced CSS techniques with Tailwind CSS. I also improved my ability to design intuitive user interfaces.",
+        "timeframe": "Completed in approximately 6 weeks, balancing frontend and backend development."
+      }
     }
   },
   {

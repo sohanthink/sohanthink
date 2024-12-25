@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </Link>
           {/* service card */}
-          <Link href="/services" className="col-span-2 md:col-span-1">
+          <Link href="#" className="col-span-2 md:col-span-1">
             <div className=" w-full shadow-box flex flex-col justify-center items-center px-2 py-1 md:py-9 h-full">
               <Image src={service} alt="service_img" fill sizes="100%" />
               <marquee className="text-[140px] text-green font-extrabold uppercase">

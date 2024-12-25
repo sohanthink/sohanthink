@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const GetInTouch = () => {
     return (
-        <Link href="/contact" className="col-span-2 md:col-span-4">
+        <Link href="mailto:sohaneftekhar@gmail.com" className="col-span-2 md:col-span-4">
             <div className="p-6 flex justify-between items-center shadow-box">
                 <div>
                     <PiArrowCircleDownThin className="text-3xl text-grayColor" />

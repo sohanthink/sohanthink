@@ -25,8 +25,10 @@ const ProfileBar = () => {
             </div>
 
             <div className='flex items-center justify-center'>
-                <button className='bg-green text-white px-7 py-2 rounded-full flex gap-4 justify-center items-center hover:bg-[#202020] ease-in-out duration-300'>Download CV <GoArrowUpRight />
-                </button>
+                <Link href='https://drive.google.com/file/d/1-oNFgBGIMq3tQccLzSnGoegZ2statfSF/view?usp=sharing'>
+                    <button className='bg-green text-white px-7 py-2 rounded-full flex gap-4 justify-center items-center hover:bg-[#202020] ease-in-out duration-300'>Download CV <GoArrowUpRight />
+                    </button>
+                </Link>
             </div>
             <div>
                 <CardDemo />

@@ -22,11 +22,11 @@ const ResponsiveNavbar = () => {
                 <li className={pathname === "/about" ? "text-green" : "hover:text-green"}>
                     <Link href="/about">About</Link>
                 </li>
-                <li className={pathname === "/contact" ? "text-green" : "hover:text-green"}>
+                {/* <li className={pathname === "/contact" ? "text-green" : "hover:text-green"}>
                     <Link href="/contact">Contact</Link>
-                </li>
+                </li> */}
                 <li className={pathname === "/portfolio" ? "text-green" : "hover:text-green"}>
-                    <Link href="/contact">Portfolio</Link>
+                    <Link href="/portfolio">Portfolio</Link>
                 </li>
             </ul>
         </div>
@@ -58,11 +58,11 @@ const Navbar = () => {
                     <li className={pathname === "/about" ? "text-green" : "hover:text-green"}>
                         <Link href="/about">About</Link>
                     </li>
-                    <li className={pathname === "/contact" ? "text-green" : "hover:text-green"}>
+                    {/* <li className={pathname === "/contact" ? "text-green" : "hover:text-green"}>
                         <Link href="/contact">Contact</Link>
-                    </li>
+                    </li> */}
                     <li className={pathname === "/portfolio" ? "text-green" : "hover:text-green"}>
-                        <Link href="/contact">Portfolio</Link>
+                        <Link href="/portfolio">Portfolio</Link>
                     </li>
                 </ul>
             </div>

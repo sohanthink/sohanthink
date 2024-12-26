@@ -3,32 +3,31 @@
     "id": 1,
     "slug": "social-media-app",
     "title": "A Social media application with Realtime chatting features in reactJS.",
-    "tech": ["ReactJs", "NextJS"],
+    "tech": ["ReactJs", "Tailwind CSS", "Redux", "Firebase Realtime Database"],
     "image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
-    "client": "For self improvements",
+    "banner_image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
+    "client": "Practice Work for Portfolio",
     "category": "web",
     "github": "https://github.com/sohanthink/mychat",
     "website": "https://sohanschat.vercel.app/",
     "details": {
       "description": [
-        "<strong>Lorem</strong> ipsum dolor sit amet, <b>consectetur</b> adipisg elit. Ut venenatis sagittis tortor, in convallis justo sagittis et.",
-        "Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus molestie danger misshion to uorolos pentis mention lobortis."
+        "This project is a social media application built with <b>ReactJS</b>, featuring real-time chatting capabilities. It includes user authentication, post creation, and a dynamic feed for user interactions. The app is designed to be responsive and utilizes Redux for state management."
       ],
       "keyFeatures": {
         "features": [
           "<strong>User Authentication:</strong> Secure sign-up and login with form validation.",
           "<strong>Post Creation:</strong> Users can create, edit, and delete text-based or image-based posts.",
-          "<strong>Feed & Interaction:</strong> A dynamic feed where users can like, comment, and view posts.",
-          "<strong>Responsive Design:</strong> Built with Tailwind CSS to ensure the app looks great on all devices.",
-          "<strong>State Management:</strong> Redux is used for efficient and predictable state management."
+          "<strong>Feed & Interaction:</strong> A dynamic feed where users can post anything and view others' posts.",
+          "<strong>State Management:</strong> Redux is used for efficient and predictable state management.",
+          "<strong>Firebase Realtime Database:</strong> Real-time data synchronization for chat messages and posts."
         ],
-        "image": "https://sohanthink.com/portfolioimages/portfolio-1.png"
+        "image": "https://sohanthink.com/portfolioimages/mychat/mychat1.png"
       },
       "technologyStack": [
         "<strong>Frontend:</strong> React, Tailwind CSS, Redux",
-        "<strong>Backend (Optional):</strong> Node.js, Express.js (if applicable)",
-        "<strong>Database:</strong> MongoDB / Firebase (if you’ve used a database)",
-        "<strong>Tools & Libraries:</strong> Axios, React Router, Vite (or Create React App)"
+        "<strong>Database:</strong>  Firebase Realtime Database",
+        "<strong>Tools & Libraries:</strong> Axios, React Router, Vite "
       ],
       "challengesAndSolutions": [
         {
@@ -36,8 +35,8 @@
           "solution": "Leveraged Redux for managing application state efficiently."
         },
         {
-          "challenge": "Ensuring the app is responsive on all devices.",
-          "solution": "Utilized Tailwind CSS’s responsive utility classes for adaptive layouts."
+          "challenge": "Implementing real-time chatting features for single and group chats.",
+          "solution": "Integrated Firebase Realtime Database to handle real-time messaging and used Redux to manage chat state efficiently."
         }
       ],
       "visuals": [
@@ -45,8 +44,8 @@
         "https://sohanthink.com/portfolioimages/portfolio-1.png"
       ],
       "developmentInsights": {
-        "whatILearned": "This project deepened my understanding of state management with Redux and advanced CSS techniques with Tailwind CSS. I also improved my ability to design intuitive user interfaces.",
-        "timeframe": "Completed in approximately 6 weeks, balancing frontend and backend development."
+        "whatILearned": "This project deepened my understanding of Redux, state management, real-time chatting, single or group messaging, and posting functionalities. I also improved my ability to design intuitive user interfaces.",
+        "timeframe": "Completed in approximately 4 months, balancing frontend and backend development."
       }
     }
   },

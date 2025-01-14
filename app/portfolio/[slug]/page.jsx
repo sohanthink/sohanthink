@@ -227,6 +227,13 @@ const PortfolioDetails = async ({ params }) => {
                         </div>
                     )
                 }
+                {
+                    portfolio.login && (
+                        <div>
+                            <SidebarItems title='Login Credentials' content={portfolio.login} />
+                        </div>
+                    )
+                }
             </div>
         </div>
 

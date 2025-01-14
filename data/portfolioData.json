@@ -3,13 +3,14 @@
     "id": 1,
     "slug": "social-media-app",
     "title": "A Social media application with Realtime chatting features in reactJS.",
-    "tech": ["ReactJs", "Tailwind CSS", "Redux", "Firebase Realtime Database"],
+    "tech": ["Firebase Realtime Database", "Redux", "ReactJs", "Tailwind CSS"],
     "image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
     "banner_image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
     "client": "Practice Work for Portfolio",
     "category": "web",
     "github": "https://github.com/sohanthink/mychat",
     "website": "https://sohanschat.vercel.app/",
+    "login": "sohaneftekhar@gmail.com/123456",
     "details": {
       "description": [
         "This project is a social media application built with <b>ReactJS</b>, featuring real-time chatting capabilities. It includes user authentication, post creation, and a dynamic feed for user interactions. The app is designed to be responsive and utilizes Redux for state management."
@@ -51,28 +52,58 @@
   },
   {
     "id": 2,
-    "slug": "social-media-app2",
-    "title": "A Social media application with React2",
-    "tech": ["ReactJs", "NextJS", "NodeJS", "ExpressJS", "MongoDB", "Redux"],
+    "slug": "embedded-expert",
+    "title": "A Course selling website offering courses and featuring a dedicated chatbot powered by ChatGPT.",
+    "tech": [
+      "NextJS",
+      "Tailwind CSS",
+      "ChatGPT",
+      "MySql",
+      "Sequelize-orm",
+      "AcertinityUI",
+      "SwiperJS"
+    ],
     "image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
-    "client": "bainchud",
+    "banner_image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
+    "client": "Ninsaw Gbati",
     "category": "web",
-    "figma": "https://www",
-    "website": "https://www",
-    "systemDesign": "http://www",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisg elit. Ut venenatis sagittis tortor, in convallis justo sagittis et./n Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus molestie danger misshion to uorolos pentis mention lobortis."
-  },
-  {
-    "id": 3,
-    "slug": "social-media-app3",
-    "title": "A Social media application with React3",
-    "tech": ["ReactJs", "NextJS"],
-    "image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
-    "client": "bainchud",
-    "category": "web",
-    "figma": "https://www",
-    "website": "https://www",
-    "systemDesign": "http://www",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisg elit. Ut venenatis sagittis tortor, in convallis justo sagittis et./n Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus molestie danger misshion to uorolos pentis mention lobortis."
+    "github": "https://github.com/sohanthink/embeddedExpert",
+    "website": "https://embeddedexpert.onrender.com/",
+    "details": {
+      "description": [
+        "This project is a hardware programming website designed to offer courses on various hardware programming topics. It features a dedicated chatbot powered by ChatGPT to assist users with their queries and provide a seamless learning experience. The website includes secure user authentication, course management, and a dynamic interface for user interactions. The platform is built with ReactJS and utilizes Redux for state management, ensuring a responsive and efficient user experience."
+      ],
+      "keyFeatures": {
+        "features": [
+          "<strong>User Authentication:</strong> Secure Contact Us and Affiliate with form validation.",
+          "<strong>Chatbot Assistance:</strong> A dedicated chatbot powered by ChatGPT to assist users with their queries.",
+          "<strong>Database Management:</strong> MySQL with Sequelize ORM for robust data handling."
+        ],
+        "image": "https://sohanthink.com/portfolioimages/mychat/mychat1.png"
+      },
+      "technologyStack": [
+        "<strong>Frontend:</strong> NextJS, AcertinityUI & Tailwind CSS.",
+        "<strong>Backend:</strong> NextJS Server.",
+        "<strong>Database:</strong> MySQL with Sequelize ORM."
+      ],
+      "challengesAndSolutions": [
+        {
+          "challenge": "Integrating a chatbot powered by ChatGPT for real-time user assistance.",
+          "solution": "Utilized the ChatGPT API to provide real-time responses and integrated it seamlessly with the website's interface."
+        },
+        {
+          "challenge": "Managing course data efficiently with a robust database solution.",
+          "solution": "Implemented MySQL with Sequelize ORM to handle complex queries and ensure data integrity."
+        }
+      ],
+      "visuals": [
+        "https://sohanthink.com/portfolioimages/portfolio-1.png",
+        "https://sohanthink.com/portfolioimages/portfolio-1.png"
+      ],
+      "developmentInsights": {
+        "whatILearned": "This project deepened my understanding of Sequelize ORM with MySQL, ChatGPT APIs, and efficient database management. I also improved my ability to integrate AI-powered features and design intuitive user interfaces.",
+        "timeframe": "Completed in approximately 1.5 months, balancing frontend and backend development."
+      }
+    }
   }
 ]

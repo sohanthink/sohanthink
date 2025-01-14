@@ -63,8 +63,8 @@
       "AcertinityUI",
       "SwiperJS"
     ],
-    "image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
-    "banner_image": "https://sohanthink.com/portfolioimages/portfolio-1.png",
+    "image": "https://sohanthink.com/portfolioimages/embeddedexpert/embedded-1.png",
+    "banner_image": "https://sohanthink.com/portfolioimages/embeddedexpert/embedded-2.png",
     "client": "Ninsaw Gbati",
     "category": "web",
     "github": "https://github.com/sohanthink/embeddedExpert",
@@ -78,8 +78,7 @@
           "<strong>User Authentication:</strong> Secure Contact Us and Affiliate with form validation.",
           "<strong>Chatbot Assistance:</strong> A dedicated chatbot powered by ChatGPT to assist users with their queries.",
           "<strong>Database Management:</strong> MySQL with Sequelize ORM for robust data handling."
-        ],
-        "image": "https://sohanthink.com/portfolioimages/mychat/mychat1.png"
+        ]
       },
       "technologyStack": [
         "<strong>Frontend:</strong> NextJS, AcertinityUI & Tailwind CSS.",
@@ -97,8 +96,7 @@
         }
       ],
       "visuals": [
-        "https://sohanthink.com/portfolioimages/portfolio-1.png",
-        "https://sohanthink.com/portfolioimages/portfolio-1.png"
+        "https://sohanthink.com/portfolioimages/embeddedexpert/embedded-3.png"
       ],
       "developmentInsights": {
         "whatILearned": "This project deepened my understanding of Sequelize ORM with MySQL, ChatGPT APIs, and efficient database management. I also improved my ability to integrate AI-powered features and design intuitive user interfaces.",

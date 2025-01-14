@@ -5,7 +5,7 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "sohanthink.com",
-        pathname: "/portfolioimages/**", // Allow all images in the portfolioimages directory
+        pathname: "/**", // Allow all folders and images
       },
     ],
   },

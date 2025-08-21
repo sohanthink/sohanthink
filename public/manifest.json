@@ -1,0 +1,26 @@
+{
+  "name": "Think With Sohan - MERN Stack Developer",
+  "short_name": "SohanThink",
+  "description": "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#202020",
+  "theme_color": "#00c566",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

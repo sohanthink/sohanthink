@@ -1,0 +1,111 @@
+{
+  "profile": {
+    "name": "Muhammad Sohan Mollah",
+    "title": "Full Stack Developer",
+    "email": "sohaneftekhar@gmail.com",
+    "phone": "+88 01645113536",
+    "description": "Full Stack Developer specializing in React, Next.js, Node.js, and MongoDB. I create modern, scalable web applications that bring ideas to life.",
+    "image": "/images/aboutsohan.jpeg",
+    "cvUrl": "/cv.pdf"
+  },
+  "socialMedia": [
+    {
+      "id": 1,
+      "name": "GitHub",
+      "url": "https://github.com/sohanthink",
+      "icon": "FiGithub",
+      "color": "hover:text-gray-400",
+      "image": "/images/github.svg"
+    },
+    {
+      "id": 2,
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sohanthink",
+      "icon": "FiLinkedin",
+      "color": "hover:text-blue-500",
+      "image": "/images/linkedin.svg"
+    },
+    {
+      "id": 4,
+      "name": "Twitter",
+      "url": "https://twitter.com/sohanthink",
+      "icon": "FiTwitter",
+      "color": "hover:text-blue-400",
+      "image": "/images/twitter.svg"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Frontend",
+      "desc": "React, Next.js, TypeScript, Tailwind CSS, React Native, Flutter"
+    },
+    {
+      "title": "Backend",
+      "desc": "Node.js, Express, MongoDB, MySQL, Firebase"
+    },
+    {
+      "title": "Tools",
+      "desc": "Git, Vercel, Netlify, Cpanel, Cloudinary, Figma"
+    }
+  ],
+  "services": [
+    {
+      "icon": "FiGlobe",
+      "title": "Web Development",
+      "description": "Full-stack web applications with modern frameworks and best practices."
+    },
+    {
+      "icon": "FiSmartphone",
+      "title": "Mobile Apps",
+      "description": "Cross-platform mobile applications using React Native and progressive web apps."
+    },
+    {
+      "icon": "FiDatabase",
+      "title": "Backend Development",
+      "description": "Robust server-side solutions with RESTful APIs and database design."
+    },
+    {
+      "icon": "FiCode",
+      "title": "Frontend Development",
+      "description": "Creating engaging user interfaces with React, Next.js and modern CSS frameworks like Tailwind. Focus on responsive design and seamless interactions."
+    },
+    {
+      "icon": "FiTrendingUp",
+      "title": "Performance Optimization",
+      "description": "Speed optimization and scalability improvements for better user experience."
+    },
+    {
+      "icon": "FiUsers",
+      "title": "Consulting",
+      "description": "Technical consulting and guidance for your development projects."
+    }
+  ],
+  "values": [
+    {
+      "title": "Quality",
+      "description": "I believe in writing clean, maintainable code that stands the test of time."
+    },
+    {
+      "title": "Innovation",
+      "description": "Always exploring new technologies and approaches to solve problems better."
+    },
+    {
+      "title": "Collaboration",
+      "description": "Working closely with clients to understand their needs and deliver solutions that exceed expectations."
+    }
+  ],
+  "site": {
+    "name": "Think With Sohan",
+    "domain": "sohanthink.com",
+    "description": "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB. Creating modern, scalable web applications that bring ideas to life.",
+    "keywords": [
+      "Full Stack Developer",
+      "React",
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Web Development",
+      "MERN Stack"
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "slug": "social-media-app",
+    "title": "Connect & Share: A social platform where users can create profiles, connect with friends, and exchange messages in real-time.",
+    "tech": ["ReactJS", "Tailwind CSS", "Firebase", "Redux", "Firebase Auth"],
+    "image": "/images/portfolio/portfolio-1.png",
+    "banner_image": "/images/portfolio/portfolio-1.png",
+    "client": "Practice Project",
+    "categories": ["website", "frontend"],
+    "github": "https://github.com/sohanthink/mychat",
+    "website": "https://sohanschat.vercel.app/",
+    "login": {
+      "admin": {
+        "email": "admin@demo.com",
+        "password": "admin123",
+        "description": "Admin access with full permissions"
+      },
+      "user": {
+        "email": "user@demo.com",
+        "password": "user123",
+        "description": "Regular user account"
+      }
+    },
+    "details": {
+      "description": "This project is a social media application built with ReactJS, featuring real-time chatting capabilities. It includes user authentication, post creation, and a dynamic feed for user interactions. The app is designed to be responsive and utilizes Redux for state management.",
+      "keyFeatures": {
+        "features": [
+          "<strong>User Authentication:</strong> Secure sign-up and login with form validation.",
+          "<strong>Post Creation:</strong> Users can create, edit, and delete text-based or image-based posts.",
+          "<strong>Feed & Interaction:</strong> A dynamic feed where users can post anything and view others' posts.",
+          "<strong>State Management:</strong> Redux is used for efficient and predictable state management.",
+          "<strong>Firebase Realtime Database:</strong> Real-time data synchronization for chat messages and posts."
+        ],
+        "image": "/images/portfolio/1.png"
+      },
+      "technologyStack": [
+        "<strong>Frontend:</strong> React, Tailwind CSS, Redux",
+        "<strong>Database:</strong> Firebase Realtime Database",
+        "<strong>Tools & Libraries:</strong> Axios, React Router, Vite"
+      ],
+      "challengesAndSolutions": [
+        {
+          "challenge": "Building a real-time feed for seamless user interactions.",
+          "solution": "Leveraged Redux for managing application state efficiently."
+        },
+        {
+          "challenge": "Implementing real-time chatting features for single and group chats.",
+          "solution": "Integrated Firebase Realtime Database to handle real-time messaging and used Redux to manage chat state efficiently."
+        }
+      ],
+      "visuals": [
+        "/images/portfolio/portfolio-1.png",
+        "/images/portfolio/1.png"
+      ],
+      "developmentInsights": {
+        "whatILearned": "This project deepened my understanding of Redux, state management, real-time chatting, single or group messaging, and posting functionalities. I also improved my ability to design intuitive user interfaces.",
+        "timeframe": "Completed in approximately 4 months, balancing frontend and backend development."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "slug": "embedded-expert",
+    "title": "A Course selling website offering courses and featuring a dedicated chatbot powered by ChatGPT.",
+    "tech": [
+      "NextJS",
+      "Tailwind CSS",
+      "ChatGPT",
+      "MySql",
+      "Sequelize-orm",
+      "AcertinityUI",
+      "SwiperJS"
+    ],
+    "image": "/images/portfolio/portfolio-1.png",
+    "banner_image": "/images/portfolio/1.png",
+    "client": "Ninsaw Gbati",
+    "categories": ["website", "frontend", "fullstack", "ecommerce"],
+    "github": "https://github.com/sohanthink/embeddedExpert",
+    "website": "https://embeddedexpert.onrender.com/",
+    "login": {
+      "demo": {
+        "email": "demo@embeddedexpert.com",
+        "password": "demo123",
+        "description": "Demo account for testing features"
+      }
+    },
+    "details": {
+      "description": "This project is a hardware programming website designed to offer courses on various hardware programming topics. It features a dedicated chatbot powered by ChatGPT to assist users with their queries and provide a seamless learning experience. The website includes secure user authentication, course management, and a dynamic interface for user interactions. The platform is built with ReactJS and utilizes Redux for state management, ensuring a responsive and efficient user experience.",
+      "keyFeatures": {
+        "features": [
+          "<strong>User Authentication:</strong> Secure Contact Us and Affiliate with form validation.",
+          "<strong>Chatbot Assistance:</strong> A dedicated chatbot powered by ChatGPT to assist users with their queries.",
+          "<strong>Database Management:</strong> MySQL with Sequelize ORM for robust data handling."
+        ],
+        "image": ""
+      },
+      "technologyStack": [
+        "<strong>Frontend:</strong> NextJS, AcertinityUI & Tailwind CSS.",
+        "<strong>Backend:</strong> NextJS Server.",
+        "<strong>Database:</strong> MySQL with Sequelize ORM."
+      ],
+      "challengesAndSolutions": [
+        {
+          "challenge": "Integrating a chatbot powered by ChatGPT for real-time user assistance.",
+          "solution": "Utilized the ChatGPT API to provide real-time responses and integrated it seamlessly with the website's interface."
+        },
+        {
+          "challenge": "Managing course data efficiently with a robust database solution.",
+          "solution": "Implemented MySQL with Sequelize ORM to handle complex queries and ensure data integrity."
+        }
+      ],
+      "visuals": ["/images/portfolio/1.png"],
+      "developmentInsights": {
+        "whatILearned": "This project deepened my understanding of Sequelize ORM with MySQL, ChatGPT APIs, and efficient database management. I also improved my ability to integrate AI-powered features and design intuitive user interfaces.",
+        "timeframe": "Completed in approximately 1.5 months, balancing frontend and backend development."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "slug": "mobile-task-app",
+    "title": "A mobile task management app built with React Native for iOS and Android platforms.",
+    "tech": [
+      "React Native",
+      "Expo",
+      "Firebase",
+      "Redux Toolkit",
+      "AsyncStorage"
+    ],
+    "image": "/images/portfolio/portfolio-1.png",
+    "banner_image": "/images/portfolio/1.png",
+    "client": "Personal Project",
+    "categories": ["mobile", "frontend", "fullstack"],
+    "github": "https://github.com/sohanthink/mobile-task-app",
+    "website": "",
+    "login": {
+      "test": {
+        "email": "test@mobileapp.com",
+        "password": "test123",
+        "description": "Test account for mobile app demo"
+      }
+    },
+    "details": {
+      "description": "A cross-platform mobile application for task management with offline capabilities, push notifications, and cloud synchronization.",
+      "keyFeatures": {
+        "features": [
+          "<strong>Cross-Platform:</strong> Works on both iOS and Android devices.",
+          "<strong>Offline Support:</strong> Tasks can be created and managed without internet connection.",
+          "<strong>Cloud Sync:</strong> Automatic synchronization when connection is restored.",
+          "<strong>Push Notifications:</strong> Reminders for upcoming tasks and deadlines."
+        ],
+        "image": ""
+      },
+      "technologyStack": [
+        "<strong>Frontend:</strong> React Native, Expo",
+        "<strong>Backend:</strong> Firebase (Firestore, Auth, Cloud Functions)",
+        "<strong>State Management:</strong> Redux Toolkit"
+      ],
+      "challengesAndSolutions": [
+        {
+          "challenge": "Implementing offline-first functionality with data synchronization.",
+          "solution": "Used AsyncStorage for local data persistence and Firebase for cloud synchronization with conflict resolution."
+        }
+      ],
+      "visuals": ["/images/portfolio/1.png"],
+      "developmentInsights": {
+        "whatILearned": "Gained expertise in React Native development, offline-first architecture, and mobile app deployment processes.",
+        "timeframe": "Completed in approximately 3 months, including testing and deployment."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "slug": "ecommerce-platform",
+    "title": "A comprehensive e-commerce platform with admin panel and user management.",
+    "tech": [
+      "NextJS",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Stripe",
+      "Tailwind CSS"
+    ],
+    "image": "/images/portfolio/portfolio-1.png",
+    "banner_image": "/images/portfolio/1.png",
+    "client": "E-commerce Client",
+    "categories": ["website", "frontend", "backend", "fullstack", "ecommerce"],
+    "github": "https://github.com/sohanthink/ecommerce-platform",
+    "website": "https://ecommerce-demo.vercel.app/",
+    "login": {
+      "admin": {
+        "email": "admin@ecommerce.com",
+        "password": "admin123",
+        "description": "Admin panel access with full store management"
+      },
+      "seller": {
+        "email": "seller@ecommerce.com",
+        "password": "seller123",
+        "description": "Seller account for managing products and orders"
+      },
+      "customer": {
+        "email": "customer@ecommerce.com",
+        "password": "customer123",
+        "description": "Customer account for shopping and orders"
+      }
+    },
+    "details": {
+      "description": "A full-featured e-commerce platform with admin panel, seller management, and customer shopping experience.",
+      "keyFeatures": {
+        "features": [
+          "<strong>Admin Panel:</strong> Complete store management with analytics and user management.",
+          "<strong>Seller Portal:</strong> Dedicated interface for sellers to manage their products.",
+          "<strong>Customer Shopping:</strong> Full shopping experience with cart, checkout, and order tracking.",
+          "<strong>Payment Integration:</strong> Secure payment processing with Stripe."
+        ],
+        "image": ""
+      },
+      "technologyStack": [
+        "<strong>Frontend:</strong> NextJS, TypeScript, Tailwind CSS",
+        "<strong>Backend:</strong> NextJS API Routes, Prisma ORM",
+        "<strong>Database:</strong> PostgreSQL",
+        "<strong>Payment:</strong> Stripe Integration"
+      ],
+      "challengesAndSolutions": [
+        {
+          "challenge": "Implementing role-based access control for different user types.",
+          "solution": "Used NextAuth.js with custom role management and middleware for route protection."
+        },
+        {
+          "challenge": "Managing complex product inventory and order processing.",
+          "solution": "Implemented a robust database schema with Prisma and real-time inventory updates."
+        }
+      ],
+      "visuals": ["/images/portfolio/1.png"],
+      "developmentInsights": {
+        "whatILearned": "Gained expertise in complex e-commerce systems, role-based authentication, and payment processing integration.",
+        "timeframe": "Completed in approximately 6 months, including testing and deployment."
+      }
+    }
+  }
+]

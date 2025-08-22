@@ -4,16 +4,16 @@
     "slug": "social-media-app",
     "title": "Connect & Share: A social platform where users can create profiles, connect with friends, and exchange messages in real-time.",
     "tech": ["ReactJS", "Tailwind CSS", "Firebase", "Redux", "Firebase Auth"],
-    "image": "/images/portfolio/portfolio-1.png",
-    "banner_image": "/images/portfolio/portfolio-1.png",
+    "image": "/images/portfolio/mychat3.png",
+    "banner_image": "/images/portfolio/mychat3.png",
     "client": "Practice Project",
     "categories": ["website", "frontend"],
     "github": "https://github.com/sohanthink/mychat",
     "website": "https://sohanschat.vercel.app/",
     "login": {
       "admin": {
-        "email": "admin@demo.com",
-        "password": "admin123",
+        "email": "sohaneftekhar@gmail.com",
+        "password": "123456",
         "description": "Admin access with full permissions"
       },
       "user": {
@@ -32,7 +32,7 @@
           "<strong>State Management:</strong> Redux is used for efficient and predictable state management.",
           "<strong>Firebase Realtime Database:</strong> Real-time data synchronization for chat messages and posts."
         ],
-        "image": "/images/portfolio/1.png"
+        "image": "/images/portfolio/mychat.png"
       },
       "technologyStack": [
         "<strong>Frontend:</strong> React, Tailwind CSS, Redux",
@@ -50,51 +50,36 @@
         }
       ],
       "visuals": [
-        "/images/portfolio/portfolio-1.png",
-        "/images/portfolio/1.png"
+        "/images/portfolio/mychat2.png",
+        "/images/portfolio/mychat1.png",
+        "/images/portfolio/mychat3.png"
       ],
       "developmentInsights": {
         "whatILearned": "This project deepened my understanding of Redux, state management, real-time chatting, single or group messaging, and posting functionalities. I also improved my ability to design intuitive user interfaces.",
-        "timeframe": "Completed in approximately 4 months, balancing frontend and backend development."
+        "timeframe": "Completed in approximately 4 months, balancing frontend and Firebase development."
       }
     }
   },
   {
     "id": 2,
     "slug": "embedded-expert",
-    "title": "A Course selling website offering courses and featuring a dedicated chatbot powered by ChatGPT.",
+    "title": "A Course selling website offering international hardwere programming courses",
     "tech": [
       "NextJS",
       "Tailwind CSS",
-      "ChatGPT",
       "MySql",
       "Sequelize-orm",
       "AcertinityUI",
       "SwiperJS"
     ],
-    "image": "/images/portfolio/portfolio-1.png",
-    "banner_image": "/images/portfolio/1.png",
+    "image": "/images/portfolio/embedded1.png",
+    "banner_image": "/images/portfolio/embedded1.png",
     "client": "Ninsaw Gbati",
-    "categories": ["website", "frontend", "fullstack", "ecommerce"],
+    "categories": ["website", "frontend", "fullstack"],
     "github": "https://github.com/sohanthink/embeddedExpert",
     "website": "https://embeddedexpert.onrender.com/",
-    "login": {
-      "demo": {
-        "email": "demo@embeddedexpert.com",
-        "password": "demo123",
-        "description": "Demo account for testing features"
-      }
-    },
     "details": {
-      "description": "This project is a hardware programming website designed to offer courses on various hardware programming topics. It features a dedicated chatbot powered by ChatGPT to assist users with their queries and provide a seamless learning experience. The website includes secure user authentication, course management, and a dynamic interface for user interactions. The platform is built with ReactJS and utilizes Redux for state management, ensuring a responsive and efficient user experience.",
-      "keyFeatures": {
-        "features": [
-          "<strong>User Authentication:</strong> Secure Contact Us and Affiliate with form validation.",
-          "<strong>Chatbot Assistance:</strong> A dedicated chatbot powered by ChatGPT to assist users with their queries.",
-          "<strong>Database Management:</strong> MySQL with Sequelize ORM for robust data handling."
-        ],
-        "image": ""
-      },
+      "description": "This project is a hardware programming course showcase website built with Next.js, Tailwind CSS and Acertinity UI. It features a modern, responsive design that displays various hardware programming courses with their detailed descriptions and pricing. Visitors can browse through the course catalog and when ready to purchase, they are redirected to the original course platform. The website utilizes Next.js for optimal performance and SEO, while Tailwind CSS and Acertinity UI provide a sleek, professional user interface.",
       "technologyStack": [
         "<strong>Frontend:</strong> NextJS, AcertinityUI & Tailwind CSS.",
         "<strong>Backend:</strong> NextJS Server.",
@@ -102,78 +87,84 @@
       ],
       "challengesAndSolutions": [
         {
-          "challenge": "Integrating a chatbot powered by ChatGPT for real-time user assistance.",
-          "solution": "Utilized the ChatGPT API to provide real-time responses and integrated it seamlessly with the website's interface."
-        },
-        {
           "challenge": "Managing course data efficiently with a robust database solution.",
           "solution": "Implemented MySQL with Sequelize ORM to handle complex queries and ensure data integrity."
         }
       ],
-      "visuals": ["/images/portfolio/1.png"],
+      "visuals": [
+        "/images/portfolio/embedded2.png",
+        "/images/portfolio/embedded3.png",
+        "/images/portfolio/embedded4.png"
+      ],
       "developmentInsights": {
-        "whatILearned": "This project deepened my understanding of Sequelize ORM with MySQL, ChatGPT APIs, and efficient database management. I also improved my ability to integrate AI-powered features and design intuitive user interfaces.",
+        "whatILearned": "This project deepened my understanding of Sequelize ORM with MySQL and efficient database management. I also improved my ability to design intuitive user interfaces and create responsive web applications.",
         "timeframe": "Completed in approximately 1.5 months, balancing frontend and backend development."
       }
     }
   },
   {
     "id": 3,
-    "slug": "mobile-task-app",
-    "title": "A mobile task management app built with React Native for iOS and Android platforms.",
-    "tech": [
-      "React Native",
-      "Expo",
-      "Firebase",
-      "Redux Toolkit",
-      "AsyncStorage"
-    ],
-    "image": "/images/portfolio/portfolio-1.png",
-    "banner_image": "/images/portfolio/1.png",
+    "slug": "nursingcare",
+    "title": "A nursing care management application for patient and employee administration",
+    "tech": ["nextjs", "tailwindcss", "shadcn/ui", "axios", "momentjs", "zod"],
+    "image": "/images/portfolio/nursing1.png",
+    "banner_image": "/images/portfolio/nursing1.png",
     "client": "Personal Project",
-    "categories": ["mobile", "frontend", "fullstack"],
-    "github": "https://github.com/sohanthink/mobile-task-app",
-    "website": "",
+    "categories": ["frontend"],
+    "website": "https://nursingcare.vercel.app/",
     "login": {
-      "test": {
-        "email": "test@mobileapp.com",
-        "password": "test123",
-        "description": "Test account for mobile app demo"
+      "admin": {
+        "email": "sohaneftekhar@gmail.com",
+        "password": "123456",
+        "description": "Admin Login : https://nursingcare.vercel.app/auth/admin"
+      },
+      "employee": {
+        "email": "employee3@gmail.com",
+        "password": "123456",
+        "description": "Employee Login : https://nursingcare.vercel.app/auth/admin"
       }
     },
+
     "details": {
-      "description": "A cross-platform mobile application for task management with offline capabilities, push notifications, and cloud synchronization.",
+      "description": "A comprehensive nursing care management platform that enables healthcare administrators to efficiently manage employees, patients, and care services. The system features robust user profile management, employee-patient assignment capabilities, booking and appointment scheduling, document management for medical papers, customizable care plan creation, and integrated form management. This streamlined solution helps nursing facilities improve their operational efficiency and deliver better patient care through organized administration.",
       "keyFeatures": {
         "features": [
-          "<strong>Cross-Platform:</strong> Works on both iOS and Android devices.",
-          "<strong>Offline Support:</strong> Tasks can be created and managed without internet connection.",
-          "<strong>Cloud Sync:</strong> Automatic synchronization when connection is restored.",
-          "<strong>Push Notifications:</strong> Reminders for upcoming tasks and deadlines."
+          "<strong>User Profile Management:</strong> Comprehensive system for managing employee and patient profiles.",
+          "<strong>Employee-Patient Assignment:</strong> Efficient assignment and tracking of care providers to patients.",
+          "<strong>Booking & Scheduling:</strong> Appointment scheduling and management system.",
+          "<strong>Document Management:</strong> Secure storage and handling of medical documents and papers.",
+          "<strong>Care Plan Creation:</strong> Customizable care plans for individual patients.",
+          "<strong>Form Management:</strong> Integrated system for managing medical and administrative forms."
         ],
         "image": ""
       },
       "technologyStack": [
-        "<strong>Frontend:</strong> React Native, Expo",
-        "<strong>Backend:</strong> Firebase (Firestore, Auth, Cloud Functions)",
-        "<strong>State Management:</strong> Redux Toolkit"
+        "<strong>Frontend:</strong> NextJS, TailwindCSS, Shadcn/UI, Axios, MomentJS, Zod",
+        "<strong>Backend:</strong> NodeJS, ExpressJS, MongoDB, Mongoose"
       ],
       "challengesAndSolutions": [
         {
-          "challenge": "Implementing offline-first functionality with data synchronization.",
-          "solution": "Used AsyncStorage for local data persistence and Firebase for cloud synchronization with conflict resolution."
+          "challenge": "Implementing dynamic form creation and location tracking features.",
+          "solution": "Developed a flexible form builder system with custom validation and integrated real-time location services for accurate tracking and updates. Also implemented a robust appointment scheduling system with conflict detection."
         }
       ],
-      "visuals": ["/images/portfolio/1.png"],
+      "visuals": [
+        "/images/portfolio/nursing2.png",
+        "/images/portfolio/nursing3.png",
+        "/images/portfolio/nursing4.png",
+        "/images/portfolio/nursing5.png",
+        "/images/portfolio/nursing6.png"
+      ],
       "developmentInsights": {
-        "whatILearned": "Gained expertise in React Native development, offline-first architecture, and mobile app deployment processes.",
-        "timeframe": "Completed in approximately 3 months, including testing and deployment."
+        "whatILearned": "Gained extensive experience in backend optimization techniques and complex MongoDB database integration, including implementing efficient queries, indexing strategies, and handling complex data relationships.",
+        "timeframe": "Completed in approximately 6 months, including testing and deployment."
       }
     }
   },
   {
     "id": 4,
-    "slug": "ecommerce-platform",
-    "title": "A comprehensive e-commerce platform with admin panel and user management.",
+    "slug": "Pool",
+    "title": "A platform for sharing and booking private pools, tennis courts and pickleball courts",
     "tech": [
       "NextJS",
       "TypeScript",
@@ -182,61 +173,33 @@
       "Stripe",
       "Tailwind CSS"
     ],
-    "image": "/images/portfolio/portfolio-1.png",
-    "banner_image": "/images/portfolio/1.png",
-    "client": "E-commerce Client",
-    "categories": ["website", "frontend", "backend", "fullstack", "ecommerce"],
-    "github": "https://github.com/sohanthink/ecommerce-platform",
-    "website": "https://ecommerce-demo.vercel.app/",
-    "login": {
-      "admin": {
-        "email": "admin@ecommerce.com",
-        "password": "admin123",
-        "description": "Admin panel access with full store management"
-      },
-      "seller": {
-        "email": "seller@ecommerce.com",
-        "password": "seller123",
-        "description": "Seller account for managing products and orders"
-      },
-      "customer": {
-        "email": "customer@ecommerce.com",
-        "password": "customer123",
-        "description": "Customer account for shopping and orders"
-      }
-    },
+    "image": "/images/portfolio/pool1.png",
+    "banner_image": "/images/portfolio/pool1.png",
+    "client": "Joe",
+    "categories": ["website", "frontend", "backend", "fullstack"],
+    "website": "https://pool-wgw9.onrender.com/",
     "details": {
-      "description": "A full-featured e-commerce platform with admin panel, seller management, and customer shopping experience.",
+      "description": "A platform that allows users to list their private pools, tennis courts, and pickleball courts, generate shareable booking links, and manage reservations seamlessly.",
       "keyFeatures": {
         "features": [
-          "<strong>Admin Panel:</strong> Complete store management with analytics and user management.",
-          "<strong>Seller Portal:</strong> Dedicated interface for sellers to manage their products.",
-          "<strong>Customer Shopping:</strong> Full shopping experience with cart, checkout, and order tracking.",
-          "<strong>Payment Integration:</strong> Secure payment processing with Stripe."
+          "<strong>Facility Management:</strong> Easy interface to add and manage pools, tennis courts, and pickleball courts.",
+          "<strong>Booking Link Generation:</strong> Create unique, shareable links for each facility listing.",
+          "<strong>Availability Calendar:</strong> Interactive calendar showing available time slots and managing bookings.",
+          "<strong>Reservation System:</strong> Simple booking process for guests using shared links."
         ],
         "image": ""
       },
       "technologyStack": [
-        "<strong>Frontend:</strong> NextJS, TypeScript, Tailwind CSS",
-        "<strong>Backend:</strong> NextJS API Routes, Prisma ORM",
-        "<strong>Database:</strong> PostgreSQL",
-        "<strong>Payment:</strong> Stripe Integration"
+        "<strong>Frontend:</strong> NextJS, ShadCn, Tailwind CSS",
+        "<strong>Backend:</strong> NextJS API Routes,GoogleOauth",
+        "<strong>Database:</strong> MongoDB"
       ],
-      "challengesAndSolutions": [
-        {
-          "challenge": "Implementing role-based access control for different user types.",
-          "solution": "Used NextAuth.js with custom role management and middleware for route protection."
-        },
-        {
-          "challenge": "Managing complex product inventory and order processing.",
-          "solution": "Implemented a robust database schema with Prisma and real-time inventory updates."
-        }
-      ],
-      "visuals": ["/images/portfolio/1.png"],
-      "developmentInsights": {
-        "whatILearned": "Gained expertise in complex e-commerce systems, role-based authentication, and payment processing integration.",
-        "timeframe": "Completed in approximately 6 months, including testing and deployment."
-      }
+      "visuals": [
+        "/images/portfolio/pool2.png",
+        "/images/portfolio/pool3.png",
+        "/images/portfolio/pool4.png",
+        "/images/portfolio/pool5.png"
+      ]
     }
   }
 ]

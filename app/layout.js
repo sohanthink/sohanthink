@@ -2,13 +2,24 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
+import PageLoader from "@/components/ui/PageLoader";
+import ScrollToTop from "@/components/ui/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Think With Sohan - MERN Stack Developer",
-  description: "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB. Creating modern, scalable web applications that bring ideas to life.",
-  keywords: ["Full Stack Developer", "React", "Next.js", "Node.js", "MongoDB", "Web Development", "MERN Stack"],
+  description:
+    "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB. Creating modern, scalable web applications that bring ideas to life.",
+  keywords: [
+    "Full Stack Developer",
+    "React",
+    "Next.js",
+    "Node.js",
+    "MongoDB",
+    "Web Development",
+    "MERN Stack",
+  ],
   authors: [{ name: "Muhammad Sohan Mollah" }],
   creator: "Muhammad Sohan Mollah",
   publisher: "SohanThink",
@@ -19,7 +30,8 @@ export const metadata = {
     url: "https://sohanthink.com",
     siteName: "Think With Sohan",
     title: "Think With Sohan - MERN Stack Developer",
-    description: "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB. Creating modern, scalable web applications that bring ideas to life.",
+    description:
+      "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB. Creating modern, scalable web applications that bring ideas to life.",
     images: [
       {
         url: "https://sohanthink.com/og-image.jpg",
@@ -34,7 +46,8 @@ export const metadata = {
     site: "@sohanthink",
     creator: "@sohanthink",
     title: "Think With Sohan - MERN Stack Developer",
-    description: "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB. Creating modern, scalable web applications that bring ideas to life.",
+    description:
+      "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB. Creating modern, scalable web applications that bring ideas to life.",
     images: ["https://sohanthink.com/og-image.jpg"],
   },
   alternates: {
@@ -49,13 +62,36 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <meta name="theme-color" content="#00ff00" />
+        <link
+          rel="preload"
+          href="/fonts/EthosNova-Bold.woff"
+          as="font"
+          type="font/woff"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/EthosNova-Heavy.otf"
+          as="font"
+          type="font/otf"
+          crossOrigin="anonymous"
+        />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
@@ -63,19 +99,19 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Muhammad Sohan Mollah",
-              "jobTitle": "Full Stack Developer",
-              "url": "https://sohanthink.com",
-              "sameAs": [
+              name: "Muhammad Sohan Mollah",
+              jobTitle: "Full Stack Developer",
+              url: "https://sohanthink.com",
+              sameAs: [
                 "https://github.com/sohanthink",
                 "https://www.linkedin.com/in/sohanthink",
-                "https://facebook.com/sohanthink"
+                "https://facebook.com/sohanthink",
               ],
-              "worksFor": {
+              worksFor: {
                 "@type": "Organization",
-                "name": "SohanThink"
+                name: "SohanThink",
               },
-              "knowsAbout": [
+              knowsAbout: [
                 "React",
                 "Next.js",
                 "Node.js",
@@ -83,28 +119,31 @@ export default function RootLayout({ children }) {
                 "TypeScript",
                 "Tailwind CSS",
                 "Web Development",
-                "Full Stack Development"
+                "Full Stack Development",
               ],
-              "description": "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB. Creating modern, scalable web applications that bring ideas to life.",
-              "image": "https://sohanthink.com/images/profile.jpg",
-              "email": "hello@sohanthink.com",
-              "telephone": "+88 01645113536",
-              "address": {
+              description:
+                "Full Stack Developer specializing in React, NextJS, Node.js, and MongoDB. Creating modern, scalable web applications that bring ideas to life.",
+              image: "https://sohanthink.com/images/profile.jpg",
+              email: "hello@sohanthink.com",
+              telephone: "+88 01645113536",
+              address: {
                 "@type": "PostalAddress",
-                "addressCountry": "BD"
-              }
-            })
+                addressCountry: "BD",
+              },
+            }),
           }}
         />
       </head>
-      <body className={`${inter.className} bg-[#0a0a0a] text-white antialiased`}>
+      <body
+        className={`${inter.className} bg-[#0a0a0a] text-white antialiased`}
+      >
+        <PageLoader />
         <div className="min-h-screen bg-[#0a0a0a]">
           <Navbar />
-          <main className="pt-0">
-            {children}
-          </main>
+          <main className="pt-0">{children}</main>
           <Footer />
         </div>
+        <ScrollToTop />
       </body>
     </html>
   );

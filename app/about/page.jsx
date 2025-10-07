@@ -196,7 +196,7 @@ const About = () => {
                         >
                             <div className="bg-gradient-to-r from-green/10 via-transparent to-blue-500/10 p-6 rounded-2xl border border-green/20">
                                 <p className="text-grayColor text-lg">
-                                    Continuously learning and adapting to new technologies to deliver cutting-edge solutions
+                                    Now my focus is to work on DSA and Competitive Programming. ALready started from <b>C/C++ then Python.</b>
                                 </p>
                             </div>
                         </motion.div>
@@ -271,9 +271,16 @@ const About = () => {
                                         <p>Present</p>
                                     </div>
                                 </div>
-                                <p className="text-grayColor leading-relaxed">
-                                    Leading development of new websites and mobile applications at Bhobium, while managing our server infrastructure. My day-to-day involves bringing creative solutions to life, squashing bugs, rolling out updates, and occasionally designing eye-catching ebooks for our clients.
-                                </p>
+                                <div className='space-y-3'>
+                                    <p className="text-grayColor leading-relaxed">
+                                        Leading development of new websites and mobile applications at Bhobium, while managing our server infrastructures <span className="text-green font-semibold">(Cpanel, Vps).</span> My day-to-day involves bringing creative solutions to life, squashing bugs, rolling out updates, and occasionally designing eye-catching UI for our clients.
+                                    </p>
+                                    <div className="flex flex-wrap gap-2">
+                                        <span className="bg-green/10 text-green px-3 py-1 rounded-full text-sm">React/Next.js</span>
+                                        <span className="bg-green/10 text-green px-3 py-1 rounded-full text-sm">Node.js/Express</span>
+                                        <span className="bg-green/10 text-green px-3 py-1 rounded-full text-sm">Cpanel, Vps, Emails</span>
+                                    </div>
+                                </div>
                             </motion.div>
 
                             {/* Freelance Experience */}
@@ -303,6 +310,7 @@ const About = () => {
                                     <div className="flex flex-wrap gap-2">
                                         <span className="bg-green/10 text-green px-3 py-1 rounded-full text-sm">Web Development</span>
                                         <span className="bg-green/10 text-green px-3 py-1 rounded-full text-sm">React/Next.js</span>
+                                        <span className="bg-green/10 text-green px-3 py-1 rounded-full text-sm">Node.js/Express</span>
                                         <span className="bg-green/10 text-green px-3 py-1 rounded-full text-sm">Full Stack</span>
                                         <span className="bg-green/10 text-green px-3 py-1 rounded-full text-sm">Client Projects</span>
                                     </div>

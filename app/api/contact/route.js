@@ -55,15 +55,6 @@ export async function POST(request) {
       subject,
     });
 
-    console.log("Contact form submission processed:", {
-      name,
-      email,
-      subject,
-      adminEmailSent: adminEmailResult.success,
-      confirmationEmailSent: confirmationEmailResult.success,
-      timestamp: new Date().toISOString(),
-    });
-
     return NextResponse.json(
       {
         success: true,

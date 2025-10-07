@@ -17,9 +17,6 @@ const Portfolio = () => {
         { id: 'all', label: 'All Projects' },
         { id: 'website', label: 'Websites' },
         { id: 'mobile', label: 'Mobile Apps' },
-        { id: 'fullstack', label: 'Full Stack' },
-        { id: 'frontend', label: 'Frontend' },
-        { id: 'backend', label: 'Backend' },
     ];
 
     useEffect(() => {

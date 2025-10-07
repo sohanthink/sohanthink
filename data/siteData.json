@@ -37,7 +37,7 @@
   "skills": [
     {
       "title": "Frontend",
-      "desc": "React, Next.js, TypeScript, Tailwind CSS, React Native, Flutter"
+      "desc": "React, Next.js, TypeScript, Tailwind CSS, React Native, Flutter, Shadcn/UI"
     },
     {
       "title": "Backend",
@@ -45,7 +45,7 @@
     },
     {
       "title": "Tools",
-      "desc": "Git, Vercel, Netlify, Cpanel, Cloudinary, Figma"
+      "desc": "Git, Vercel, Netlify, Cpanel, Cloudinary, Figma, Vps"
     }
   ],
   "services": [

@@ -34,9 +34,7 @@ const Home = () => {
   return (
     <PageTransition>
       <div className="min-h-screen bg-[#0a0a0a]">
-        {/* Hero Section */}
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-          {/* Background Pattern */}
           <div className="absolute inset-0 opacity-5">
             <div className="absolute inset-0 bg-gradient-to-br from-green/20 via-transparent to-transparent"></div>
           </div>

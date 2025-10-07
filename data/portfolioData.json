@@ -1,67 +1,108 @@
 [
   {
     "id": 1,
-    "slug": "social-media-app",
-    "title": "Connect & Share: A social platform where users can create profiles, connect with friends, and exchange messages in real-time.",
-    "tech": ["ReactJS", "Tailwind CSS", "Firebase", "Redux", "Firebase Auth"],
-    "image": "/images/portfolio/mychat3.png",
-    "banner_image": "/images/portfolio/mychat3.png",
-    "client": "Practice Project",
-    "categories": ["website", "frontend"],
-    "github": "https://github.com/sohanthink/mychat",
-    "website": "https://sohanschat.vercel.app/",
-    "login": {
-      "admin": {
-        "email": "sohaneftekhar@gmail.com",
-        "password": "123456",
-        "description": "Admin access with full permissions"
-      },
-      "user": {
-        "email": "user@demo.com",
-        "password": "user123",
-        "description": "Regular user account"
-      }
-    },
+    "slug": "businessventure",
+    "title": "A comprehensive business consulting platform for entrepreneurs and business owners",
+    "tech": [
+      "NextJS",
+      "Next API",
+      "Tailwind CSS",
+      "framer-motion",
+      "VPS",
+      "Nginx",
+      "PM2"
+    ],
+    "image": "/images/portfolio/businessventure1.png",
+    "banner_image": "/images/portfolio/businessventure1.png",
+    "client": "Canadian Client",
+    "categories": ["website"],
+    "website": "https://nlbusiness.vercel.app/",
     "details": {
-      "description": "This project is a social media application built with ReactJS, featuring real-time chatting capabilities. It includes user authentication, post creation, and a dynamic feed for user interactions. The app is designed to be responsive and utilizes Redux for state management.",
+      "description": "A comprehensive business consulting platform similar to Joorney.com, designed to help entrepreneurs and business owners access professional consulting services. This production-ready application provides a marketplace where business consultants can offer their expertise and clients can find the right consultant for their specific needs. The platform features advanced search capabilities, consultant profiles, booking systems, and secure payment processing, all hosted on a custom VPS server with professional deployment practices.",
       "keyFeatures": {
         "features": [
-          "<strong>User Authentication:</strong> Secure sign-up and login with form validation.",
-          "<strong>Post Creation:</strong> Users can create, edit, and delete text-based or image-based posts.",
-          "<strong>Feed & Interaction:</strong> A dynamic feed where users can post anything and view others' posts.",
-          "<strong>State Management:</strong> Redux is used for efficient and predictable state management.",
-          "<strong>Firebase Realtime Database:</strong> Real-time data synchronization for chat messages and posts."
+          "<strong>Consultant Marketplace:</strong> Platform for business consultants to showcase their expertise and services.",
+          "<strong>Advanced Search & Filtering:</strong> Sophisticated search system to help clients find the right consultant.",
+          "<strong>Profile Management:</strong> Comprehensive consultant profiles with portfolios, reviews, and certifications.",
+          "<strong>Booking & Scheduling:</strong> Integrated appointment booking system with calendar management.",
+          "<strong>Payment Processing:</strong> Secure payment gateway for consulting services and transactions.",
+          "<strong>Review & Rating System:</strong> Client feedback and rating system for consultant quality assurance."
         ],
-        "image": "/images/portfolio/mychat.png"
+        "image": ""
       },
       "technologyStack": [
-        "<strong>Frontend:</strong> React, Tailwind CSS, Redux",
-        "<strong>Database:</strong> Firebase Realtime Database",
-        "<strong>Tools & Libraries:</strong> Axios, React Router, Vite"
+        "<strong>Frontend:</strong> NextJS, TypeScript, Tailwind CSS",
+        "<strong>Backend:</strong> NextJS API Routes, Server-side Rendering",
+        "<strong>Hosting:</strong> VPS Server with Nginx reverse proxy",
+        "<strong>Process Management:</strong> PM2 for application process management",
+        "<strong>Deployment:</strong> Custom VPS deployment with professional server configuration"
       ],
       "challengesAndSolutions": [
         {
-          "challenge": "Building a real-time feed for seamless user interactions.",
-          "solution": "Leveraged Redux for managing application state efficiently."
+          "challenge": "Setting up and configuring a production VPS server with proper security and performance optimization.",
+          "solution": "Implemented Nginx as a reverse proxy with SSL certificates, configured PM2 for process management, and set up proper server security measures including firewall configuration and automated backups."
         },
         {
-          "challenge": "Implementing real-time chatting features for single and group chats.",
-          "solution": "Integrated Firebase Realtime Database to handle real-time messaging and used Redux to manage chat state efficiently."
+          "challenge": "Building a scalable marketplace platform with complex user interactions and payment processing.",
+          "solution": "Developed a robust NextJS application with optimized API routes, implemented efficient database queries, and integrated secure payment processing with proper error handling and validation."
         }
       ],
       "visuals": [
-        "/images/portfolio/mychat2.png",
-        "/images/portfolio/mychat1.png",
-        "/images/portfolio/mychat3.png"
+        "/images/portfolio/businessventure1.png",
+        "/images/portfolio/businessventure2.png",
+        "/images/portfolio/businessventure3.png",
+        "/images/portfolio/businessventure4.png"
       ],
       "developmentInsights": {
-        "whatILearned": "This project deepened my understanding of Redux, state management, real-time chatting, single or group messaging, and posting functionalities. I also improved my ability to design intuitive user interfaces.",
-        "timeframe": "Completed in approximately 4 months, balancing frontend and Firebase development."
+        "whatILearned": "Gained extensive experience in VPS server management, Nginx configuration, PM2 process management, and production deployment strategies. Learned about server security, SSL certificate management, and performance optimization techniques. Also developed deep understanding of marketplace platform architecture and business consulting industry requirements.",
+        "timeframe": "Completed in approximately 3 months, including server setup, development, and deployment.",
+        "serverManagement": "Mastered VPS server administration including Nginx reverse proxy setup, PM2 process management, SSL configuration, and server security best practices for production applications."
       }
     }
   },
   {
     "id": 2,
+    "slug": "Pool",
+    "title": "A platform for sharing and booking private pools, tennis courts and pickleball courts",
+    "tech": [
+      "NextJS",
+      "Tailwind CSS",
+      "NextAPI",
+      "MongoDB",
+      "Mongoose",
+      "Google Oauth"
+    ],
+    "image": "/images/portfolio/pool1.png",
+    "banner_image": "/images/portfolio/pool1.png",
+    "client": "Joe",
+    "categories": ["website", "frontend", "backend", "fullstack"],
+    "website": "https://pool-wgw9.onrender.com/",
+    "details": {
+      "description": "A platform that allows users to list their private pools, tennis courts, and pickleball courts, generate shareable booking links, and manage reservations seamlessly.",
+      "keyFeatures": {
+        "features": [
+          "<strong>Facility Management:</strong> Easy interface to add and manage pools, tennis courts, and pickleball courts.",
+          "<strong>Booking Link Generation:</strong> Create unique, shareable links for each facility listing.",
+          "<strong>Availability Calendar:</strong> Interactive calendar showing available time slots and managing bookings.",
+          "<strong>Reservation System:</strong> Simple booking process for guests using shared links."
+        ],
+        "image": ""
+      },
+      "technologyStack": [
+        "<strong>Frontend:</strong> NextJS, ShadCn, Tailwind CSS",
+        "<strong>Backend:</strong> NextJS API Routes,GoogleOauth",
+        "<strong>Database:</strong> MongoDB"
+      ],
+      "visuals": [
+        "/images/portfolio/pool2.png",
+        "/images/portfolio/pool3.png",
+        "/images/portfolio/pool4.png",
+        "/images/portfolio/pool5.png"
+      ]
+    }
+  },
+  {
+    "id": 3,
     "slug": "embedded-expert",
     "title": "A Course selling website offering international hardwere programming courses",
     "tech": [
@@ -103,7 +144,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "nursingcare",
     "title": "A nursing care management application for patient and employee administration",
     "tech": [
@@ -175,104 +216,63 @@
     }
   },
   {
-    "id": 4,
-    "slug": "Pool",
-    "title": "A platform for sharing and booking private pools, tennis courts and pickleball courts",
-    "tech": [
-      "NextJS",
-      "TypeScript",
-      "Prisma",
-      "PostgreSQL",
-      "Stripe",
-      "Tailwind CSS"
-    ],
-    "image": "/images/portfolio/pool1.png",
-    "banner_image": "/images/portfolio/pool1.png",
-    "client": "Joe",
-    "categories": ["website", "frontend", "backend", "fullstack"],
-    "website": "https://pool-wgw9.onrender.com/",
-    "details": {
-      "description": "A platform that allows users to list their private pools, tennis courts, and pickleball courts, generate shareable booking links, and manage reservations seamlessly.",
-      "keyFeatures": {
-        "features": [
-          "<strong>Facility Management:</strong> Easy interface to add and manage pools, tennis courts, and pickleball courts.",
-          "<strong>Booking Link Generation:</strong> Create unique, shareable links for each facility listing.",
-          "<strong>Availability Calendar:</strong> Interactive calendar showing available time slots and managing bookings.",
-          "<strong>Reservation System:</strong> Simple booking process for guests using shared links."
-        ],
-        "image": ""
-      },
-      "technologyStack": [
-        "<strong>Frontend:</strong> NextJS, ShadCn, Tailwind CSS",
-        "<strong>Backend:</strong> NextJS API Routes,GoogleOauth",
-        "<strong>Database:</strong> MongoDB"
-      ],
-      "visuals": [
-        "/images/portfolio/pool2.png",
-        "/images/portfolio/pool3.png",
-        "/images/portfolio/pool4.png",
-        "/images/portfolio/pool5.png"
-      ]
-    }
-  },
-  {
     "id": 5,
-    "slug": "businessventure",
-    "title": "A comprehensive business consulting platform for entrepreneurs and business owners",
-    "tech": [
-      "NextJS",
-      "Next API",
-      "TypeScript",
-      "Tailwind CSS",
-      "VPS",
-      "Nginx",
-      "PM2"
-    ],
-    "image": "/images/portfolio/businessventure1.png",
-    "banner_image": "/images/portfolio/businessventure1.png",
-    "client": "Canadian Client",
-    "categories": ["website"],
-    "website": "https://nlbusiness.vercel.app/",
+    "slug": "social-media-app",
+    "title": "Connect & Share: A social platform where users can create profiles, connect with friends, and exchange messages in real-time.",
+    "tech": ["ReactJS", "Tailwind CSS", "Firebase", "Redux", "Firebase Auth"],
+    "image": "/images/portfolio/mychat3.png",
+    "banner_image": "/images/portfolio/mychat3.png",
+    "client": "Practice Project",
+    "categories": ["website", "frontend"],
+    "github": "https://github.com/sohanthink/mychat",
+    "website": "https://sohanschat.vercel.app/",
+    "login": {
+      "admin": {
+        "email": "sohaneftekhar@gmail.com",
+        "password": "123456",
+        "description": "Admin access with full permissions"
+      },
+      "user": {
+        "email": "user@demo.com",
+        "password": "user123",
+        "description": "Regular user account"
+      }
+    },
     "details": {
-      "description": "A comprehensive business consulting platform similar to Joorney.com, designed to help entrepreneurs and business owners access professional consulting services. This production-ready application provides a marketplace where business consultants can offer their expertise and clients can find the right consultant for their specific needs. The platform features advanced search capabilities, consultant profiles, booking systems, and secure payment processing, all hosted on a custom VPS server with professional deployment practices.",
+      "description": "This project is a social media application built with ReactJS, featuring real-time chatting capabilities. It includes user authentication, post creation, and a dynamic feed for user interactions. The app is designed to be responsive and utilizes Redux for state management.",
       "keyFeatures": {
         "features": [
-          "<strong>Consultant Marketplace:</strong> Platform for business consultants to showcase their expertise and services.",
-          "<strong>Advanced Search & Filtering:</strong> Sophisticated search system to help clients find the right consultant.",
-          "<strong>Profile Management:</strong> Comprehensive consultant profiles with portfolios, reviews, and certifications.",
-          "<strong>Booking & Scheduling:</strong> Integrated appointment booking system with calendar management.",
-          "<strong>Payment Processing:</strong> Secure payment gateway for consulting services and transactions.",
-          "<strong>Review & Rating System:</strong> Client feedback and rating system for consultant quality assurance."
+          "<strong>User Authentication:</strong> Secure sign-up and login with form validation.",
+          "<strong>Post Creation:</strong> Users can create, edit, and delete text-based or image-based posts.",
+          "<strong>Feed & Interaction:</strong> A dynamic feed where users can post anything and view others' posts.",
+          "<strong>State Management:</strong> Redux is used for efficient and predictable state management.",
+          "<strong>Firebase Realtime Database:</strong> Real-time data synchronization for chat messages and posts."
         ],
-        "image": ""
+        "image": "/images/portfolio/mychat.png"
       },
       "technologyStack": [
-        "<strong>Frontend:</strong> NextJS, TypeScript, Tailwind CSS",
-        "<strong>Backend:</strong> NextJS API Routes, Server-side Rendering",
-        "<strong>Hosting:</strong> VPS Server with Nginx reverse proxy",
-        "<strong>Process Management:</strong> PM2 for application process management",
-        "<strong>Deployment:</strong> Custom VPS deployment with professional server configuration"
+        "<strong>Frontend:</strong> React, Tailwind CSS, Redux",
+        "<strong>Database:</strong> Firebase Realtime Database",
+        "<strong>Tools & Libraries:</strong> Axios, React Router, Vite"
       ],
       "challengesAndSolutions": [
         {
-          "challenge": "Setting up and configuring a production VPS server with proper security and performance optimization.",
-          "solution": "Implemented Nginx as a reverse proxy with SSL certificates, configured PM2 for process management, and set up proper server security measures including firewall configuration and automated backups."
+          "challenge": "Building a real-time feed for seamless user interactions.",
+          "solution": "Leveraged Redux for managing application state efficiently."
         },
         {
-          "challenge": "Building a scalable marketplace platform with complex user interactions and payment processing.",
-          "solution": "Developed a robust NextJS application with optimized API routes, implemented efficient database queries, and integrated secure payment processing with proper error handling and validation."
+          "challenge": "Implementing real-time chatting features for single and group chats.",
+          "solution": "Integrated Firebase Realtime Database to handle real-time messaging and used Redux to manage chat state efficiently."
         }
       ],
       "visuals": [
-        "/images/portfolio/businessventure1.png",
-        "/images/portfolio/businessventure2.png",
-        "/images/portfolio/businessventure3.png",
-        "/images/portfolio/businessventure4.png"
+        "/images/portfolio/mychat2.png",
+        "/images/portfolio/mychat1.png",
+        "/images/portfolio/mychat3.png"
       ],
       "developmentInsights": {
-        "whatILearned": "Gained extensive experience in VPS server management, Nginx configuration, PM2 process management, and production deployment strategies. Learned about server security, SSL certificate management, and performance optimization techniques. Also developed deep understanding of marketplace platform architecture and business consulting industry requirements.",
-        "timeframe": "Completed in approximately 3 months, including server setup, development, and deployment.",
-        "serverManagement": "Mastered VPS server administration including Nginx reverse proxy setup, PM2 process management, SSL configuration, and server security best practices for production applications."
+        "whatILearned": "This project deepened my understanding of Redux, state management, real-time chatting, single or group messaging, and posting functionalities. I also improved my ability to design intuitive user interfaces.",
+        "timeframe": "Completed in approximately 4 months, balancing frontend and Firebase development."
       }
     }
   }

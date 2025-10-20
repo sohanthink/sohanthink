@@ -265,7 +265,7 @@ const About = () => {
                                         <h3 className="text-xl md:text-2xl font-sspro text-white mb-2">
                                             Full Stack Developer
                                         </h3>
-                                        <p className="text-green font-medium">Bhobium Limited</p>
+                                        <p className="text-green font-medium">Bohobiom Inc. Limited</p>
                                     </div>
                                     <div className="text-grayColor text-sm mt-2 md:mt-0">
                                         <p>Present</p>

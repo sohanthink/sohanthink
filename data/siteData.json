@@ -45,7 +45,7 @@
     },
     {
       "title": "Tools",
-      "desc": "Git, Vercel, Netlify, Cpanel, Cloudinary, Figma, Vps"
+      "desc": "Git, Vercel, Netlify, Cpanel, Cloudinary, Figma, Vps, ci/cd"
     }
   ],
   "services": [

@@ -195,6 +195,17 @@ const Home = () => {
                   </motion.div>
                 ))}
               </div>
+
+              <Link href="/about" className="inline-block mt-10">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-green hover:bg-green/80 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 flex items-center gap-2 shadow-lg shadow-green/25"
+                >
+                  Learn More About Me
+                  <FiExternalLink className="text-lg" />
+                </motion.button>
+              </Link>
             </motion.div>
           </div>
         </section>

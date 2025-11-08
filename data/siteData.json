@@ -80,6 +80,28 @@
       "description": "Technical consulting and guidance for your development projects."
     }
   ],
+  "certifications": [
+    {
+      "title": "MERN Stack Development Certification",
+      "issuer": "Creative IT Institute",
+      "issueDate": "28 October 2025",
+      "credentialId": "MERN-22090309",
+      "grade": "Grade A",
+      "description": "Completed the MERN Stack Development program covering React, Node.js, Express, MongoDB, deployment workflows, and production best practices.",
+      "image": "/images/certifications/mern-stack-creative-it.jpg",
+      "verificationUrl": "https://certificate.citsmp.com/?certificate_id=MERN-22090309"
+    },
+    {
+      "title": "Bachelor of Science in Multimedia & Creative Technology",
+      "issuer": "Daffodil International University",
+      "issueDate": "04 April 2023",
+      "credentialId": "Serial No. 1105712",
+      "grade": "CGPA 3.41 / 4.0",
+      "description": "Bachelor's degree awarded by the Faculty of Science & Information Technology, focusing on multimedia production, creative technology, and core computer science foundations. Student ID 191-40-576.",
+      "image": "/images/certifications/bsc-certificate.png",
+      "verificationUrl": "http://erp.daffodilvarsity.edu.bd/?app=certificateVerify"
+    }
+  ],
   "values": [
     {
       "title": "Quality",

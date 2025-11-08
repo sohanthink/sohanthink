@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiCode, FiDatabase, FiSmartphone, FiGlobe, FiTrendingUp, FiUsers } from 'react-icons/fi';
+import { FiCode, FiDatabase, FiSmartphone, FiGlobe, FiTrendingUp, FiUsers, FiExternalLink } from 'react-icons/fi';
 import Image from 'next/image';
 import siteData from '@/data/siteData.json';
 import PageTransition from '@/components/ui/PageTransition';
@@ -238,6 +238,87 @@ const About = () => {
                             })}
                         </div>
                     </motion.div>
+
+                    {/* Certifications Section */}
+                    {siteData.certifications && siteData.certifications.length > 0 && (
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.7 }}
+                            className="mb-20"
+                        >
+                            <h2 className="text-3xl md:text-4xl font-sspro text-white text-center mb-12">
+                                Professional Certifications
+                            </h2>
+
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                                {siteData.certifications.map((certification, index) => (
+                                    <motion.div
+                                        key={certification.title}
+                                        initial={{ opacity: 0, y: 30 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.8 + index * 0.1 }}
+                                        className="bg-[#202020] border border-grayColor/10 rounded-2xl overflow-hidden shadow-lg hover:border-green/20 transition-all duration-300"
+                                    >
+                                        <div className="relative">
+                                            <Image
+                                                src={certification.image}
+                                                alt={certification.title}
+                                                width={800}
+                                                height={600}
+                                                className="w-full object-cover"
+                                            />
+                                            <div className="absolute top-4 left-4 bg-green text-black px-3 py-1 text-xs font-semibold rounded-full">
+                                                {certification.grade}
+                                            </div>
+                                        </div>
+
+                                        <div className="p-6 space-y-4">
+                                            <div>
+                                                <h3 className="text-2xl font-sspro text-white">
+                                                    {certification.title}
+                                                </h3>
+                                                <p className="text-green mt-1 font-medium">
+                                                    {certification.issuer}
+                                                </p>
+                                            </div>
+
+                                            <p className="text-grayColor leading-relaxed">
+                                                {certification.description}
+                                            </p>
+
+                                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-grayColor">
+                                                <div className="bg-black/20 border border-grayColor/10 rounded-xl p-4">
+                                                    <p className="text-white font-semibold text-xs uppercase tracking-wide">
+                                                        Date of Issue
+                                                    </p>
+                                                    <p className="mt-1">{certification.issueDate}</p>
+                                                </div>
+                                                <div className="bg-black/20 border border-grayColor/10 rounded-xl p-4">
+                                                    <p className="text-white font-semibold text-xs uppercase tracking-wide">
+                                                        Credential ID
+                                                    </p>
+                                                    <p className="mt-1">{certification.credentialId}</p>
+                                                </div>
+                                            </div>
+
+                                            {certification.verificationUrl && (
+                                                <a
+                                                    href={certification.verificationUrl}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="inline-flex items-center gap-2 text-green font-semibold hover:text-white transition-colors"
+                                                >
+                                                    <FiExternalLink />
+                                                    <span>Verify Credential</span>
+                                                </a>
+                                            )}
+                                        </div>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </motion.div>
+                    )}
 
                     {/* Experience Section */}
                     <motion.div
